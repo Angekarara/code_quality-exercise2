@@ -1,3 +1,3 @@
-function mult(x, y) {
+function multiply(x, y) {
   return x * y;
 }
