@@ -1,6 +1,2 @@
-function calculateMatrixSum(matrix) {
-  return matrix.reduce(
-    (acc, row) => acc + row.reduce((sum, num) => sum + num, 0),
-    0
-  );
-}
+const calculateMatrixSum = (matrix) =>
+  matrix.flat().reduce((acc, num) => acc + num, 0);
