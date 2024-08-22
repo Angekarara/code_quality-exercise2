@@ -1,3 +1,2 @@
-function calculateAverage(numbers) {
-  return numbers.reduce((acc, num) => acc + num) / numbers.length;
-}
+const calculateAverage = (numbers) =>
+  numbers.reduce((acc, num) => acc + num) / numbers.length;
